@@ -22,6 +22,11 @@ Once you have obtained the above, edit the following files to input the keys and
 - Assets/Beamable/StorageObjects/GenamonStorage/Services/ScenarioGG.cs
 - Assets/Beamable/StorageObjects/GenamonStorage/Services/OpenAI.cs
 
+Running the Microservices
+1. Make sure you have completed the instructions in the polygon-example project
+2. Open the Beamable Microservices Manager
+3. Click the "Publish" button to deploy the Microservices to the Cloud
+
 Lastly, you will need to attach a wallet to your Beamable player account before running the DemoGame scene. 
 You can do this by running the WalletAuth scene and clicking the Attach button.
 
