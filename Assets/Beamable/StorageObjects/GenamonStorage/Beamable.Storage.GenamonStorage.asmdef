@@ -1,0 +1,35 @@
+{
+    "name": "Beamable.Storage.GenamonStorage",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Beamable.Runtime.Common",
+        "Unity.Beamable.Server.Runtime",
+        "Unity.Beamable.Server.Runtime.Shared",
+        "Unity.Beamable",
+        "Beamable.SmallerJSON",
+        "Unity.Beamable.Server.Runtime.Common",
+        "Unity.Beamable.Server.Runtime.Mocks",
+        "Unity.Beamable.Customer.Common"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "DnsClient.dll",
+        "MongoDB.Bson.dll",
+        "MongoDB.Driver.Core.dll",
+        "MongoDB.Driver.dll",
+        "MongoDB.Libmongocrypt.dll",
+        "System.Buffers.dll",
+        "System.Runtime.CompilerServices.Unsafe.dll",
+        "SharpCompress.dll",
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

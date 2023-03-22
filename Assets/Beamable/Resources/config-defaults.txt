@@ -1,0 +1,8 @@
+{
+    "cid": "1597755709048898",
+    "alias": "genamon",
+    "pid": "DE_1597755709048899",
+    "platform": "",
+    "socket": "",
+    "containerPrefix": ""
+}

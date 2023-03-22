@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14a5b40dc58386f46a327adbbd3aab00, type: 3}
+  m_Name: ContentConfiguration
+  m_EditorClassIdentifier: 
+  EnableMultipleContentNamespaces: 0
+  multipleContentNamespacesSettingLocked: 0
+  EditorManifestID: global
+  EditorDownloadBatchSize:
+    HasValue: 0
+    Value: 0
+  EnablePropertyOrderDependenceForContentChecksum: 1
+  EnableLocalContentInEditor: 0
+  LocalContentReferenceDelaySeconds:
+    HasValue: 0
+    Value: 0
+  LocalContentManifestDelaySeconds:
+    HasValue: 0
+    Value: 0
+  _runtimeManifestID: global
+  EnableBakedContentCompression: 1
+  BakeContentOnBuild: 1
+  DisableContentDownloadExceptions: 0

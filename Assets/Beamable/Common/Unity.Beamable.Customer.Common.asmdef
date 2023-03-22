@@ -1,0 +1,10 @@
+{
+   "references":[
+     "Unity.Beamable.Runtime.Common",
+    "Unity.Beamable.Server.Runtime.Common",
+    "Unity.Beamable.Server.Runtime.Mocks",
+    "Beamable.SmallerJSON"
+  ],
+  "name":"Unity.Beamable.Customer.Common",
+  "autoReferenced":true
+}

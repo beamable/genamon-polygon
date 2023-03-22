@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d2ee21ac3448598f8393734871c187, type: 3}
+  m_Name: CoreConfiguration
+  m_EditorClassIdentifier: 
+  DefaultUncaughtPromiseHandlerConfiguration: 0
+  InventoryOfflineMode: 0
+  EnablePlayModeWarning: 1
+  BeamableAssistantMenuItemsPath:
+  - Assets/Beamable/Editor/Assistant/MenuItems
+  - Packages/com.beamable/Editor/BeamableAssistant/MenuItems
+  - Packages/com.beamable.server/Editor/BeamableAssistant/MenuItems
+  BeamableAssistantToolbarButtonsPaths:
+  - Assets/Beamable/Editor/Assistant/ToolbarButtons
+  - Packages/com.beamable/Editor/BeamableAssistant/ToolbarButtons
+  - Packages/com.beamable.server/Editor/BeamableAssistant/ToolbarButtons
+  BeamableAssistantHintDetailConfigPaths:
+  - Assets/Beamable/Assistant/Hint/HintDetails
+  - Packages/com.beamable/Editor/BeamableAssistant/BeamHints/BeamHintDetailConfigs
+  - Packages/com.beamable.server/Editor/BeamableAssistant/BeamHints/BeamHintDetailConfigs
+  - Assets/Beamable/Editor/Assistant/Hint/HintDetails
+  ReflectionSystemPaths:
+  - Assets/Beamable/Editor/ReflectionCache/UserSystems
+  - Packages/com.beamable/Editor/ReflectionCache/UserSystems
+  - Packages/com.beamable.server/Editor/ReflectionCache/UserSystems
+  AssembliesToSweep:
+  - Assembly-CSharp
+  - Assembly-CSharp-Editor
+  - Assembly-CSharp-Editor-firstpass
+  - Assembly-CSharp-firstpass
+  - Beamable.Config
+  - Beamable.ConsoleCommands
+  - Beamable.Coroutines
+  - Beamable.Editor.Input
+  - Beamable.Extensions
+  - Beamable.JsonSerializable
+  - Beamable.Platform
+  - Beamable.Pooling
+  - Beamable.Pooling.Editor
+  - Beamable.Runtime.Input
+  - Beamable.Service
+  - Beamable.SmallerJSON
+  - Beamable.Spew
+  - Beamable.UnityUIExtensions
+  - PubNub
+  - Unity.Addressables
+  - Unity.Addressables.Editor
+  - Unity.Analytics.DataPrivacy
+  - Unity.Beamable
+  - Unity.Beamable.Editor
+  - Unity.Beamable.Editor.Server
+  - Unity.Beamable.Purchasing
+  - Unity.Beamable.Runtime.Common
+  - Unity.Beamable.Runtime.UserMicroService.cachedependentms
+  - Unity.Beamable.Runtime.UserMicroService.xxxx
+  - Unity.Beamable.Runtime.UserStorageObject.xxxx
+  - Unity.Beamable.Samples.Editor
+  - Unity.Beamable.Samples.Runtime
+  - Unity.Beamable.Server.Runtime
+  - Unity.Beamable.Server.Runtime.Shared
+  - Unity.Beamable.Server.Runtime.Tests
+  - Unity.Beamable.Tests
+  - Unity.Beamable.Tests.Editor
+  - Unity.CollabProxy.Editor
+  - Unity.PackageManagerUI.Editor
+  - Unity.ResourceManager
+  - Unity.ScriptableBuildPipeline
+  - Unity.ScriptableBuildPipeline.Editor
+  - Unity.TextMeshPro
+  - Unity.TextMeshPro.Editor
+  - UnityEditor.CacheServer
+  - UnityEditor.Purchasing
+  - UnityEngine.Purchasing
+  - VirtualList
+  - VirtualList.Editor
