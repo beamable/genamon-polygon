@@ -143,9 +143,11 @@ namespace Beamable.Microservices
                 var genamon = genamonList[0].ToView();
                 await inventory.AddItem(itemRef, new Dictionary<string, string>
                 {
+                    {"$image", genamon.imageUrl},
                     {"image", genamon.imageUrl},
                     {"imageUrl", genamon.imageUrl}, //workaround
                     {"name", genamon.name},
+                    {"$symbol", genamon.name},
                     {"elementalType", string.Join(",", genamon.type)},
                     {"health", genamon.health.ToString()},
                     {"attack", genamon.attack.ToString()},
@@ -155,6 +157,7 @@ namespace Beamable.Microservices
                     {"speed", genamon.speed.ToString()},
                     {"abilities", string.Join(',', genamon.abilities)},
                     {"moves", string.Join(',', genamon.moves)},
+                    {"$description", genamon.description},
                     {"desc", genamon.description}
                 });
 

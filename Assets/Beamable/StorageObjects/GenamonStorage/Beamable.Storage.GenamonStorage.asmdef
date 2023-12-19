@@ -8,7 +8,6 @@
         "Unity.Beamable",
         "Beamable.SmallerJSON",
         "Unity.Beamable.Server.Runtime.Common",
-        "Unity.Beamable.Server.Runtime.Mocks",
         "Unity.Beamable.Customer.Common"
     ],
     "includePlatforms": [

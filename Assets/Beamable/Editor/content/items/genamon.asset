@@ -23,5 +23,5 @@ MonoBehaviour:
   federation:
     HasValue: 1
     Value:
-      Service: PolygonFederation
-      Namespace: polygon
+      Service: SolanaFederation
+      Namespace: solana

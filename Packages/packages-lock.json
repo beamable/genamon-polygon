@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.beamable": {
-      "version": "1.13.0-PREVIEW.RC1",
+      "version": "1.19.8",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -12,10 +12,19 @@
         "com.unity.test-framework": "1.1.19",
         "com.unity.test-framework.performance": "2.8.1-preview"
       },
-      "url": "https://nexus.beamable.com/nexus/content/repositories/unity-preview"
+      "url": "https://nexus.beamable.com/nexus/content/repositories/unity"
     },
-    "com.beamable.polygon": {
-      "version": "https://github.com/beamable/polygon-example.git?path=/Packages/com.beamable.polygon#0.0.1",
+    "com.beamable.server": {
+      "version": "1.19.8",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.beamable": "1.19.8"
+      },
+      "url": "https://nexus.beamable.com/nexus/content/repositories/unity"
+    },
+    "com.beamable.solana": {
+      "version": "https://github.com/beamable/solana-example.git?path=/Packages/com.beamable.solana#1.19.8",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -27,16 +36,7 @@
         "com.unity.test-framework.performance": "2.8.1-preview",
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
-      "hash": "daee24f5d642e3189f30a0ca4f63a83165cec216"
-    },
-    "com.beamable.server": {
-      "version": "1.13.0-PREVIEW.RC1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.beamable": "1.13.0-PREVIEW.RC1"
-      },
-      "url": "https://nexus.beamable.com/nexus/content/repositories/unity-preview"
+      "hash": "26bf4686a6b53e9542783478e34096cf80732eff"
     },
     "com.unity.addressables": {
       "version": "1.19.19",

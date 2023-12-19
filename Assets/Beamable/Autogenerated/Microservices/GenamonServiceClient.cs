@@ -37,7 +37,7 @@ namespace Beamable.Server.Clients
         /// </summary>
         public Beamable.Common.Promise<GetStatusResponse> GetStatus()
         {
-            string[] serializedFields = new string[0];
+            System.Collections.Generic.Dictionary<string, object> serializedFields = new System.Collections.Generic.Dictionary<string, object>();
             return this.Request<GetStatusResponse>("GenamonService", "status", serializedFields);
         }
         
@@ -47,7 +47,7 @@ namespace Beamable.Server.Clients
         /// </summary>
         public Beamable.Common.Promise<System.Threading.Tasks.Task> Generate()
         {
-            string[] serializedFields = new string[0];
+            System.Collections.Generic.Dictionary<string, object> serializedFields = new System.Collections.Generic.Dictionary<string, object>();
             return this.Request<System.Threading.Tasks.Task>("GenamonService", "Generate", serializedFields);
         }
         
@@ -57,11 +57,11 @@ namespace Beamable.Server.Clients
         /// </summary>
         public Beamable.Common.Promise<Beamable.Common.Unit> Collect(string genamonId, Beamable.Common.Inventory.ItemRef itemRef)
         {
-            string serialized_genamonId = this.SerializeArgument<string>(genamonId);
-            string serialized_itemRef = this.SerializeArgument<Beamable.Common.Inventory.ItemRef>(itemRef);
-            string[] serializedFields = new string[] {
-                    serialized_genamonId,
-                    serialized_itemRef};
+            object raw_genamonId = genamonId;
+            object raw_itemRef = itemRef;
+            System.Collections.Generic.Dictionary<string, object> serializedFields = new System.Collections.Generic.Dictionary<string, object>();
+            serializedFields.Add("genamonId", raw_genamonId);
+            serializedFields.Add("itemRef", raw_itemRef);
             return this.Request<Beamable.Common.Unit>("GenamonService", "collect", serializedFields);
         }
     }

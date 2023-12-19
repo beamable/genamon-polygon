@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "com.beamable": "1.13.0-PREVIEW.RC1",
-    "com.beamable.polygon": "https://github.com/beamable/polygon-example.git?path=/Packages/com.beamable.polygon#0.0.1",
-    "com.beamable.server": "1.13.0-PREVIEW.RC1",
+    "com.beamable": "1.19.8",
+    "com.beamable.server": "1.19.8",
+    "com.beamable.solana": "https://github.com/beamable/solana-example.git?path=/Packages/com.beamable.solana#1.19.8",
     "com.unity.collab-proxy": "2.0.0",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.18",
@@ -48,7 +48,7 @@
   "scopedRegistries": [
     {
       "name": "Beamable",
-      "url": "https://nexus.beamable.com/nexus/content/repositories/unity-preview",
+      "url": "https://nexus.beamable.com/nexus/content/repositories/unity",
       "scopes": [
         "com.beamable"
       ]

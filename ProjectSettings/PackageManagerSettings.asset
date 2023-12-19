@@ -28,7 +28,7 @@ MonoBehaviour:
     m_ConfigSource: 0
   - m_Id: scoped:project:Beamable
     m_Name: Beamable
-    m_Url: https://nexus.beamable.com/nexus/content/repositories/unity-preview
+    m_Url: https://nexus.beamable.com/nexus/content/repositories/unity
     m_Scopes:
     - com.beamable
     m_IsDefault: 0
